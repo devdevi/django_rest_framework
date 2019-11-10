@@ -1,3 +1,8 @@
+```
+docker build 
+```
+
+
 # Comparte Ride
 
 Comparte Ride was a carpooling platform developed on 2016 as
