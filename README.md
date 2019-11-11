@@ -1,6 +1,22 @@
 ```
-docker build 
+docker build
+
 ```
+### cookiecutter
+Genera codigo template y luego puedes basar tu proyecto en algun cookiecutter.
+# Herencia de modelos
+Es lo mismo que la herencia de clases, solo que las clases heredan de django.db.models
+La herencia de modelos puede ser útil porque podemos tener datos generales que pueden ser heradatos por otras que no necesariamente tienen una tabla, porque queremos que haya herencia de múltiples tablas que se reflejan en la base de datos o porque queremos extender la funcionalidad de un modelo.
+- EXTENDER FUNCIONALIDAD DE UN MODELO
+- **Clases abstractas**:
+```
+   clase meta:
+      abstract = true
+```
+no se refleja en la base de datos
+- **Propiedades meta de cada modelo**
+- **Modelos proxy ***
+Los **PROXY** nos permiten extender la funcionalidad de un modelo sin crear una nueva tabla en la base de datos, a diferencia de los **Abstract models** es que estas solo exponen un molde de atributos y las **proxy** extienden de una tabla ya existente.
 
 
 # Comparte Ride

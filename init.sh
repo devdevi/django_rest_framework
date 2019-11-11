@@ -26,3 +26,23 @@ dokcer rm -f <id contianert to kill>
 # correr contanedor de django solo
 docker-compose run --rm --service-ports django
 # SERVICE-PORTS: EXPONE LOS PUERTOS
+
+
+#COMANDOS POR DEFUALT DE DOCKER
+docker contianer 
+docker imagenes
+dcoker volume   
+docker network
+# COMPANDOS OPERACIONALES
+ls : listar
+rm = remover
+prune = quitar todos lo que no estamos usando
+-a = mostrar todos
+-q  = solo usar los IDS
+# borrar todo docker
+docker system prune
+
+
+# Borrar volumenes
+docker volume ls
+docker volume rm <name volume>
